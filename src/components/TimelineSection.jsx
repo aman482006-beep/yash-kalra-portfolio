@@ -21,7 +21,7 @@ const TimelineItem = ({ data, index, isLast }) => {
                         initial={{ height: 0 }}
                         animate={isInView ? { height: "100%" } : { height: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="w-px bg-white/20 flex-grow absolute top-4 left-[7px]"
+                        className="w-px bg-neutral-800 flex-grow absolute top-4 left-[7px]"
                     />
                 )}
             </div>

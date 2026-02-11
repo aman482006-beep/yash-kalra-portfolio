@@ -28,24 +28,24 @@ const AboutGoatLife = () => {
                             a convenient, nutritious solution for people who refuse to compromise on health despite busy schedules.
                         </p>
 
-                        <div className="bg-white p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent">
-                            <h3 className="text-2xl font-bold text-primary mb-4">The GOAT LIFE Difference</h3>
+                        <div className="bg-neutral-900 p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent border-y border-r border-y-neutral-800 border-r-neutral-800">
+                            <h3 className="text-2xl font-bold text-white mb-4">The GOAT LIFE Difference</h3>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
-                                    <span className="text-success mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-primary">Quick Commerce Distribution:</strong> Available where you need it, when you need it</span>
+                                    <span className="text-accent mr-3 text-2xl">✓</span>
+                                    <span><strong className="text-white">Quick Commerce Distribution:</strong> Available where you need it, when you need it</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-success mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-primary">Experimental Marketing:</strong> Grassroots campaigns that break traditional molds</span>
+                                    <span className="text-accent mr-3 text-2xl">✓</span>
+                                    <span><strong className="text-white">Experimental Marketing:</strong> Grassroots campaigns that break traditional molds</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-success mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-primary">Community-First:</strong> Built with input from real users, not boardrooms</span>
+                                    <span className="text-accent mr-3 text-2xl">✓</span>
+                                    <span><strong className="text-white">Community-First:</strong> Built with input from real users, not boardrooms</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <span className="text-success mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-primary">Transparent Journey:</strong> Every win, every challenge shared openly</span>
+                                    <span className="text-accent mr-3 text-2xl">✓</span>
+                                    <span><strong className="text-white">Transparent Journey:</strong> Every win, every challenge shared openly</span>
                                 </li>
                             </ul>
                         </div>

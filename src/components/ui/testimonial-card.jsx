@@ -20,7 +20,7 @@ export default function TestimonialCard({ author, text, rating, index }) {
 
             <GlowingEffect className="rounded-2xl">
 
-                <div className="flex flex-col gap-4 p-6 bg-black/60 backdrop-blur-md rounded-2xl">
+                <div className="flex flex-col gap-4 p-6 bg-neutral-900 rounded-2xl border border-neutral-800">
 
                     <div className="flex items-center gap-4">
 
@@ -33,7 +33,7 @@ export default function TestimonialCard({ author, text, rating, index }) {
                                 {author.name}
                             </div>
 
-                            <div className="text-sm text-gray-400">
+                            <div className="text-sm text-neutral-400">
                                 {author.handle}
                             </div>
                         </div>
@@ -48,13 +48,13 @@ export default function TestimonialCard({ author, text, rating, index }) {
                                 className={
                                     i < rating
                                         ? "text-yellow-400 fill-yellow-400"
-                                        : "text-gray-600"
+                                        : "text-neutral-600"
                                 }
                             />
                         ))}
                     </div>
 
-                    <p className="text-gray-300">
+                    <p className="text-neutral-300">
                         {text}
                     </p>
 

@@ -64,7 +64,7 @@ const MetricsDashboard = () => {
                                 animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 whileHover={{ y: -5, transition: { duration: 0.2 } }}
-                                className="bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/10 hover:border-accent/40 group transition-all duration-300"
+                                className="bg-neutral-900 p-8 rounded-2xl shadow-lg border border-neutral-800 hover:border-accent/40 group transition-all duration-300"
                             >
                                 <div className="text-5xl font-bold text-white mb-2 group-hover:text-accent transition-colors">
                                     <CountUp

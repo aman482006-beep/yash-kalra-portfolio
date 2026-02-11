@@ -36,12 +36,12 @@ const CompanyLinks = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                     transition={{ duration: 0.6 }}
-                    className="bg-gradient-to-br from-accent/10 to-highlight p-12 rounded-3xl shadow-xl border border-accent/20"
+                    className="bg-neutral-900 p-12 rounded-3xl shadow-xl border border-neutral-800"
                 >
-                    <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center">
+                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-center">
                         Connect with Me
                     </h2>
-                    <p className="text-secondary text-center mb-10">
+                    <p className="text-neutral-400 text-center mb-10">
                         Follow the journey, join the community
                     </p>
 
@@ -55,9 +55,9 @@ const CompanyLinks = () => {
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                                whileHover={{ scale: 1.05, y: -5, backgroundColor: "rgba(255,255,255,0.1)" }}
+                                whileHover={{ scale: 1.05, y: -5, backgroundColor: "rgba(38, 38, 38, 1)" }}
                                 whileTap={{ scale: 0.95 }}
-                                className="bg-white/5 backdrop-blur-md px-8 py-4 rounded-full shadow-lg border border-white/10 hover:border-accent/50 transition-all duration-300 flex items-center gap-3 min-w-[200px] justify-center group"
+                                className="bg-neutral-800 px-8 py-4 rounded-full shadow-lg border border-neutral-700 hover:border-accent/50 transition-all duration-300 flex items-center gap-3 min-w-[200px] justify-center group"
                                 aria-label={link.label}
                             >
                                 {link.name === "Goat Life" ? (

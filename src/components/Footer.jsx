@@ -8,7 +8,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="bg-primary text-white py-12 px-6">
+        <footer className="bg-neutral-900 text-white py-12 px-6 border-t border-neutral-800">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="text-center md:text-left">
@@ -22,7 +22,7 @@ const Footer = () => {
                                 href={social.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-accent hover:scale-110 transition-all duration-300"
+                                className="text-neutral-400 hover:text-accent hover:scale-110 transition-all duration-300"
                                 aria-label={social.label}
                             >
                                 <social.icon size={24} />
