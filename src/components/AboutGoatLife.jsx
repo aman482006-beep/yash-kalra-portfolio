@@ -29,17 +29,16 @@ const AboutGoatLife = () => {
                         </p>
 
                         <div
-                            className="p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent border-y border-r border-y-neutral-800 border-r-neutral-800"
-                            style={{ backgroundColor: "#171717" }} >
-                            <h3 className="text-2xl font-bold text-white mb-4">The GOAT LIFE Difference</h3>
+                            className="bg-card p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent border-y border-r border-border">
+                            <h3 className="text-2xl font-bold text-card-foreground mb-4">The GOAT LIFE Difference</h3>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
                                     <span className="text-accent mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-white">Quick Commerce Distribution:</strong> Available where you need it, when you need it</span>
+                                    <span><strong className="text-card-foreground">Quick Commerce Distribution:</strong> Available where you need it, when you need it</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-accent mr-3 text-2xl">✓</span>
-                                    <span><strong className="text-white">Experimental Marketing:</strong> Grassroots campaigns that break traditional molds</span>
+                                    <span><strong className="text-card-foreground">Experimental Marketing:</strong> Grassroots campaigns that break traditional molds</span>
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-accent mr-3 text-2xl">✓</span>

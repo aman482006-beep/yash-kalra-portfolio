@@ -21,7 +21,7 @@ const TimelineItem = ({ data, index, isLast }) => {
                         initial={{ height: 0 }}
                         animate={isInView ? { height: "100%" } : { height: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="w-px bg-neutral-800 flex-grow absolute top-4 left-[7px]"
+                        className="w-px bg-border flex-grow absolute top-4 left-[7px]"
                     />
                 )}
             </div>
@@ -36,7 +36,7 @@ const TimelineItem = ({ data, index, isLast }) => {
                 <span className="text-sm font-bold text-accent tracking-widest uppercase mb-1 block">
                     {data.date}
                 </span>
-                <h3 className="text-2xl font-bold text-white mb-2">{data.title}</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">{data.title}</h3>
                 {data.description && (
                     <p className="text-secondary leading-relaxed max-w-lg">
                         {data.description}
@@ -77,7 +77,7 @@ const TimelineSection = () => {
     ];
 
     return (
-        <section className="py-24 px-6 bg-black">
+        <section className="py-24 px-6 bg-background">
             <div className="max-w-3xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -85,7 +85,7 @@ const TimelineSection = () => {
                     viewport={{ once: true }}
                     className="mb-16 text-center"
                 >
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">The Journey So Far</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">The Journey So Far</h2>
                     <p className="text-secondary">From spark to wildfire. Executing with speed and precision.</p>
                 </motion.div>
 

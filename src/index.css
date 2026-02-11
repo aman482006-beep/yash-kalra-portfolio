@@ -2,20 +2,88 @@
 
 :root {
   color-scheme: dark;
+
+  /* DARK THEME (DEFAULT) */
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+
+  --color-card: #171717;
+  /* neutral-900 equivalent */
+  --color-card-foreground: #fafafa;
+
+  --color-primary: #fafafa;
+  --color-primary-foreground: #09090b;
+
+  --color-secondary: #a1a1aa;
+  --color-secondary-foreground: #fafafa;
+
+  --color-muted: #27272a;
+  --color-muted-foreground: #a1a1aa;
+
+  --color-accent: #FACC15;
+  --color-accent-foreground: #09090b;
+
+  --color-border: #27272a;
+  /* neutral-800 */
+  --color-input: #27272a;
+
+  /* Helper for glass/overlay if needed, though we prefer solid now */
+  --color-overlay: rgba(0, 0, 0, 0.8);
+}
+
+.light {
+  color-scheme: light;
+
+  /* LIGHT THEME values */
+  --color-background: #ffffff;
+  --color-foreground: #09090b;
+
+  --color-card: #f4f4f5;
+  /* zinc-100 */
+  --color-card-foreground: #09090b;
+
+  --color-primary: #18181b;
+  --color-primary-foreground: #fafafa;
+
+  --color-secondary: #71717a;
+  --color-secondary-foreground: #18181b;
+
+  --color-muted: #f4f4f5;
+  --color-muted-foreground: #71717a;
+
+  --color-accent: #FACC15;
+  /* Keep accent same or adjust if needed */
+  --color-accent-foreground: #09090b;
+
+  --color-border: #e4e4e7;
+  /* zinc-200 */
+  --color-input: #e4e4e7;
+
+  --color-overlay: rgba(255, 255, 255, 0.8);
 }
 
 @theme {
-  --color-background: #09090b;
-  --color-primary: #fafafa;
-  --color-primary-foreground: #09090b;
-  --color-secondary: #a1a1aa;
-  --color-accent: #FACC15;
-  --color-highlight: #18181b;
-  --color-success: #4ade80;
+  /* Map Tailwind utilities to these CSS variables */
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
 
-  --color-muted: #27272a;
-  --color-muted-foreground: #71717a;
-  --color-foreground: #fafafa;
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+
+  --color-border: var(--color-border);
+  --color-input: var(--color-input);
 
   --animate-marquee: marquee var(--duration) linear infinite;
 

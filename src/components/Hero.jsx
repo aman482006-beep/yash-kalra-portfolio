@@ -4,7 +4,7 @@ import heroImg from "../assets/yash-hero.png";
 
 const Hero = () => {
     return (
-        <section className="min-h-screen flex items-center px-6 py-20 bg-gradient-to-b from-highlight to-background">
+        <section className="min-h-screen flex items-center px-6 py-20 bg-gradient-to-b from-muted to-background">
 
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 

@@ -62,10 +62,10 @@ const CampaignShowcase = () => {
                                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-                                className="bg-neutral-900 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer border border-neutral-800 group"
+                                className="bg-card p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer border border-border group"
                             >
-                                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent transition-colors">{campaign.title}</h3>
-                                <p className="text-neutral-400 mb-4 text-sm leading-relaxed">{campaign.description}</p>
+                                <h3 className="text-xl font-bold text-card-foreground mb-3 group-hover:text-accent transition-colors">{campaign.title}</h3>
+                                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{campaign.description}</p>
                                 <div className="text-accent font-semibold text-sm">{campaign.impact}</div>
                             </motion.div>
                         ))}

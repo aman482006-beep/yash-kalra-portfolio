@@ -84,15 +84,15 @@ const AboutYash = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
+                    className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-card rounded-2xl p-8 border border-border"
                 >
                     {stats.map((stat, index) => (
                         <div key={index} className="text-center relative group">
                             {index !== stats.length - 1 && (
-                                <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-px h-12 bg-white/10" />
+                                <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-px h-12 bg-border" />
                             )}
-                            <div className="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:text-accent transition-colors duration-300">{stat.value}</div>
-                            <div className="text-sm text-gray-400 uppercase tracking-widest font-medium">{stat.label}</div>
+                            <div className="text-4xl md:text-5xl font-bold text-card-foreground mb-2 group-hover:text-accent transition-colors duration-300">{stat.value}</div>
+                            <div className="text-sm text-muted-foreground uppercase tracking-widest font-medium group-hover:text-accent transition-colors duration-300">{stat.label}</div>
                         </div>
                     ))}
                 </motion.div>
