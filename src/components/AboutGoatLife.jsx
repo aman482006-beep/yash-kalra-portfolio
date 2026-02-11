@@ -28,7 +28,9 @@ const AboutGoatLife = () => {
                             a convenient, nutritious solution for people who refuse to compromise on health despite busy schedules.
                         </p>
 
-                        <div className="bg-neutral-900 p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent border-y border-r border-y-neutral-800 border-r-neutral-800">
+                        <div
+                            className="p-8 rounded-2xl shadow-lg my-8 border-l-4 border-accent border-y border-r border-y-neutral-800 border-r-neutral-800"
+                            style={{ backgroundColor: "#171717" }} >
                             <h3 className="text-2xl font-bold text-white mb-4">The GOAT LIFE Difference</h3>
                             <ul className="space-y-3">
                                 <li className="flex items-start">
